@@ -1,0 +1,57 @@
+.trial-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  padding: 2rem;
+}
+
+.trial-card {
+  width: 100%;
+  max-width: 520px;
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: white;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+}
+
+.trial-card h1 {
+  margin-bottom: 0.5rem;
+}
+
+.trial-card p {
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 1.5rem;
+}
+
+.trial-card input,
+.trial-card textarea {
+  width: 100%;
+  padding: 0.9rem;
+  margin-bottom: 1rem;
+  border-radius: 0.75rem;
+  border: none;
+  background: rgba(255,255,255,0.12);
+  color: white;
+  outline: none;
+}
+
+.trial-card textarea {
+  min-height: 100px;
+  resize: none;
+}
+
+.trial-card button {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
