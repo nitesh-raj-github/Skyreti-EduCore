@@ -1,7 +1,43 @@
-"scripts": {
-  "start": "react-scripts start",
-  "build": "node node_modules/react-scripts/bin/react-scripts.js build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "postinstall": "chmod +x node_modules/.bin/react-scripts"
+{
+  "name": "skyreti-educore-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "lucide-react": "^0.309.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.4",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.12.0",
+    "react-intersection-observer": "^10.0.0",
+    "react-router-dom": "^6.30.2",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^3.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "node node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "chmod +x node_modules/.bin/react-scripts"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
